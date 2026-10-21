@@ -1,6 +1,6 @@
 # 제3자 구성 요소 고지 (Third-Party Notices)
 
-Editables는 make editable 사내용 소프트웨어입니다. Editables 자체에는 오픈소스 라이선스를 부여하지 않으며, 무단 재배포를 금지합니다.
+Editables는 스튜디오 make editable의 작업 도구입니다. Editables 자체의 모든 권리는 make editable의 김태균에게 있으며, 오픈소스 라이선스는 부여하지 않습니다.
 아래 구성 요소는 각자의 라이선스에 따라 함께 배포됩니다. 각 구성 요소의 권리는 해당 저작권자에게 있습니다.
 
 이 파일은 `scripts/third-party-notices.mjs`로 만들어집니다.
@@ -17,7 +17,7 @@ FFmpeg는 FFmpeg 개발자들의 저작물이며, 아래 빌드는 `--enable-gpl
   - https://ffmpeg.martin-riedl.de/download/macos/arm64/1789931890_9.0.2/ffmpeg.zip (sha256 c8ed4c4e6978a03c485edbfe4e0a5dc2380f8a30bba5150531b31b094492d924)
   - https://ffmpeg.martin-riedl.de/download/macos/arm64/1789931890_9.0.2/ffprobe.zip (sha256 fcbe839537485eaee7a7a8bc5cbc0f90d53617e80943e8a5b2e31cb851197ea6)
 
-위 빌드에 대응하는 소스 코드가 필요하면 위 주소에서 받을 수 있습니다. 받을 수 없는 경우 make editable에 요청하면 제공합니다.
+위 빌드에 대응하는 소스 코드가 필요하면 위 주소에서 받을 수 있습니다. 받을 수 없는 경우 make editable(김태균)에 요청하면 제공합니다.
 
 ## Apache Subversion (Windows) — Apache License 2.0
 
