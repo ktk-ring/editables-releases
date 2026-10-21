@@ -33,7 +33,7 @@ FFmpeg는 FFmpeg 개발자들의 저작물이며, 아래 빌드는 `--enable-gpl
 
 라이선스 전문은 부록 B에 있습니다.
 
-## Rust 크레이트 (570개)
+## Rust 크레이트 (571개)
 
 앱 · 명령줄 도구 · 설치 프로그램에 컴파일되어 들어갑니다. 각 크레이트의 저작권 고지와 라이선스 전문은 링크된 저장소에 있습니다.
 MPL-2.0 크레이트는 수정 없이 사용하며, 소스 코드는 링크된 저장소에서 받을 수 있습니다. 여러 라이선스 중 선택할 수 있는 크레이트(`OR`)는 MIT 또는 Apache-2.0을 따릅니다.
@@ -488,6 +488,7 @@ MPL-2.0 크레이트는 수정 없이 사용하며, 소스 코드는 링크된 �
 | [typenum](https://github.com/paholg/typenum) | 1.20.1 | MIT OR Apache-2.0 |
 | [uds_windows](https://github.com/haraldh/rust_uds_windows) | 1.2.1 | MIT |
 | [unicode-ident](https://github.com/dtolnay/unicode-ident) | 1.0.27 | (MIT OR Apache-2.0) AND Unicode-3.0 |
+| [unicode-normalization](https://github.com/unicode-rs/unicode-normalization) | 0.1.26 | (MIT OR Apache-2.0) AND Unicode-3.0 |
 | [unicode-segmentation](https://github.com/unicode-rs/unicode-segmentation) | 1.13.3 | MIT OR Apache-2.0 |
 | [untrusted](https://github.com/briansmith/untrusted) | 0.9.0 | ISC |
 | [url](https://github.com/servo/rust-url) | 2.5.8 | MIT OR Apache-2.0 |
