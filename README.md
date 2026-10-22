@@ -1,8 +1,13 @@
 # Editables
 
-스튜디오 make editable의 작업 도구입니다. 영상 · 이미지 변환, 파일 이름 일괄 변경, SVN 형상관리, 텍스처 맵 만들기, 3D 모델 확인을 한 앱에서 할 수 있습니다.
+<table>
+<tr>
+<td width="50%"><img src="docs/screenshots/banner.png" alt="Editables"></td>
+<td width="50%"><img src="docs/screenshots/home.png" alt="홈 화면"></td>
+</tr>
+</table>
 
-![여러 영상을 격자로 나란히 재생하는 비교 화면](docs/screenshots/media-compare.png)
+스튜디오 make editable의 작업 도구입니다. 영상 · 이미지 변환, 파일 이름 일괄 변경, SVN 형상관리, 텍스처 맵 만들기, 3D 모델 확인을 한 앱에서 할 수 있습니다.
 
 Windows · macOS(Apple Silicon)용이고, 무료로 쓸 수 있습니다.
 
@@ -14,7 +19,16 @@ Windows · macOS(Apple Silicon)용이고, 무료로 쓸 수 있습니다.
 
 미디어 화면은 파일 목록 하나로 미리보기 · 인코딩 · 비교를 오가며 씁니다.
 
-![영상 미리보기 · 파일 정보](docs/screenshots/media-preview.png)
+<table>
+<tr>
+<td width="50%"><img src="docs/screenshots/media-preview.png" alt="미리보기"></td>
+<td width="50%"><img src="docs/screenshots/media-compare.png" alt="비교"></td>
+</tr>
+<tr>
+<td align="center">미리보기</td>
+<td align="center">비교</td>
+</tr>
+</table>
 
 - **미리보기**: 영상을 프레임 단위로 넘겨 보며 구간을 지정하고, 지금 화면을 PNG로 저장하거나 구간을 GIF · 영상으로 잘라 냅니다.
 - **인코딩**: 여러 영상을 한 번에 MP4 · MOV · MKV · WebM · GIF로 변환합니다. 리뷰용 · 웹용 · 편집용 같은 프리셋을 고르기만 하면 되고, 오디오 · 자막 트랙도 골라 넣거나 자막을 영상에 입힐 수 있습니다.
@@ -26,8 +40,8 @@ Windows · macOS(Apple Silicon)용이고, 무료로 쓸 수 있습니다.
 
 <table>
 <tr>
-<td><img src="docs/screenshots/media-encode.png" alt="인코딩 프리셋 · 일괄 변환"></td>
-<td><img src="docs/screenshots/media-image.png" alt="이미지 일괄 변환"></td>
+<td width="50%"><img src="docs/screenshots/media-encode.png" alt="인코딩"></td>
+<td width="50%"><img src="docs/screenshots/media-image.png" alt="이미지 변환"></td>
 </tr>
 <tr>
 <td align="center">인코딩</td>
@@ -39,7 +53,16 @@ Windows · macOS(Apple Silicon)용이고, 무료로 쓸 수 있습니다.
 
 여러 파일의 이름을 규칙대로 한 번에 바꿉니다. 바뀔 이름을 미리 보고 적용하며, 적용한 뒤에도 되돌릴 수 있습니다.
 
-![리네이머 · UE5 네이밍 미리보기](docs/screenshots/renamer.png)
+<table>
+<tr>
+<td width="50%"><img src="docs/screenshots/renamer.png" alt="규칙 · 미리보기"></td>
+<td width="50%"><img src="docs/screenshots/renamer-history.png" alt="기록 · 되돌리기"></td>
+</tr>
+<tr>
+<td align="center">규칙 · 미리보기</td>
+<td align="center">기록 · 되돌리기</td>
+</tr>
+</table>
 
 - 글자 찾아 바꾸기 · 앞뒤에 붙이기 · 번호 매기기 · 대소문자 · 확장자 · 공백과 특수문자 정리
 - **UE5 네이밍**: 파일 종류에 맞춰 `T_` · `SM_` · `A_` 접두사와 `_D` · `_N` · `_ORM` 같은 텍스처 접미사를 붙입니다.
@@ -51,33 +74,56 @@ Windows · macOS(Apple Silicon)용이고, 무료로 쓸 수 있습니다.
 
 팀 저장소의 파일을 받고, 올리고, 잠급니다. Windows는 svn이 함께 설치되어 따로 준비할 것이 없습니다.
 
-![작업 사본 · 바뀐 파일과 잠금](docs/screenshots/vcs-working-copy.png)
+<table>
+<tr>
+<td width="50%"><img src="docs/screenshots/vcs-working-copy.png" alt="작업 사본"></td>
+<td width="50%"><img src="docs/screenshots/vcs-locks.png" alt="잠금 현황"></td>
+</tr>
+<tr>
+<td align="center">작업 사본</td>
+<td align="center">잠금 현황</td>
+</tr>
+</table>
 
 - **작업 사본**: 바뀐 파일 확인 · 커밋 · 업데이트 · 잠금 · 되돌리기 · 충돌 해결. 파일마다 바뀐 내용(텍스트 · 이미지)을 보거나 이전 버전을 받을 수 있습니다.
 - **잠금 현황**: 저장소 전체에서 누가 어떤 파일을 잠갔는지 보고, 오래된 잠금을 정리합니다.
 - **잠금 필수**: UE5 에셋(.uasset · .umap)은 잠근 사람만 수정할 수 있게 해, 두 사람이 같은 에셋을 동시에 고치는 일을 막습니다.
 - **프로젝트 셋업**: 새 프로젝트를 받으면서 UE5에 맞는 무시 목록과 잠금 필수 설정까지 한 번에 끝냅니다.
 
-![잠금 현황 · 사용자별 잠금과 오래된 잠금](docs/screenshots/vcs-locks.png)
-
 
 ### 텍스처 도구
 
 베이스 컬러(또는 하이트) 이미지 한 장으로 PBR 맵을 만듭니다.
 
-![텍스처 맵 만들기 · 3D 미리보기](docs/screenshots/texture-maps.png)
+<table>
+<tr>
+<td width="50%"><img src="docs/screenshots/texture-maps.png" alt="맵 만들기"></td>
+<td width="50%"><img src="docs/screenshots/texture-pack.png" alt="채널 패킹"></td>
+</tr>
+<tr>
+<td align="center">맵 만들기</td>
+<td align="center">채널 패킹</td>
+</tr>
+</table>
 
 - 노멀 · 하이트 · 러프니스 · AO · ORM 맵을 만들고, 구 · 큐브 · 평면에 입혀 바로 확인합니다.
 - **심리스**: 이어 붙여도 이음매가 보이지 않는 타일 텍스처로 만듭니다.
 - **채널 패킹**: 여러 이미지의 채널을 골라 한 장으로 합칩니다.
 - 언리얼 이름 규칙(`T_이름_N`)으로 PNG · TGA · TIFF를 저장합니다.
 
-![채널 패킹](docs/screenshots/texture-pack.png)
-
 
 ### 파이프라인
 
-![3D 뷰어 · 실제 크기와 UV](docs/screenshots/pipeline-viewer.png)
+<table>
+<tr>
+<td width="50%"><img src="docs/screenshots/pipeline-viewer.png" alt="3D 뷰어"></td>
+<td width="50%"><img src="docs/screenshots/pipeline-checker.png" alt="UV 체커"></td>
+</tr>
+<tr>
+<td align="center">3D 뷰어</td>
+<td align="center">UV 체커</td>
+</tr>
+</table>
 
 - **3D 뷰어**: FBX · OBJ · glTF · STL 모델을 열어 실제 크기 · 폴리곤 수 · 재질 · UV를 확인합니다.
 - Cinema 4D 익스포트와 UE5 자동 임포트는 준비 중입니다.
