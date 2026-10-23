@@ -11,6 +11,8 @@
 
 Windows · macOS(Apple Silicon)용이고, 무료로 쓸 수 있습니다.
 
+소개 페이지: **[ktkring.com/editables](https://ktkring.com/editables)**
+
 ## 기능
 
 ### 미디어
